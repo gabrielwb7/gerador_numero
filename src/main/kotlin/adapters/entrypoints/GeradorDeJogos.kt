@@ -32,7 +32,7 @@ class GeradorDeJogos {
 
     }
 
-    fun pegarAQtdDeJogos(scanner: Scanner): Int {
+    private fun pegarAQtdDeJogos(scanner: Scanner): Int {
         println("Digite a quantidade de jogos de 15 numeros você deseja, por favor.")
 
         val qtdDeJogos = scanner.nextInt()
